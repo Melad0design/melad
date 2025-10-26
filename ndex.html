@@ -1,244 +1,0 @@
-<!DOCTYPE html><!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-  <meta charset="UTF-8" /><header <img src="images/logo.png" alt="شعار مصممة الجرافيك" style="height:60px;">
- 
- 
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>تصاميمي - مصممة جرافيك</title>
-
-  <style>
-    /* الخطوط العامة */
-    body {
-      font-family: "Cairo", sans-serif;
-      margin: 0;
-      background-color: #faf9f8;
-      color: #515151;
-    }
-
-    /* رأس الموقع */
-    header {
-      background-color: #1a1a3d; /* كحلي */
-      color: #ff6600; /* برتقالي */
-      padding: 20px;
-      text-align: center;
-    }
-
-    header img {
-      height: 60px;
-      margin-bottom: 10px;
-    }
-
-    header p {
-      margin: 0;
-      font-size: 18px;
-    }
-
-    /* قائمة التنقل */
-    nav {
-      background-color: #111130; /* كحلي */
-      display: flex;
-      justify-content: center;
-      gap: 25px;
-      padding: 10px 0;
-    }
-
-    nav a {
-      color: #ff6600; /* برتقالي */
-      text-decoration: none;
-      font-weight: bold;
-      transition: color 0.3s;
-    }
-
-    nav a:hover {
-      color: #fff;
-    }
-
-    /* الأقسام */
-    section {
-      padding: 60px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    h2 {
-      text-align: center;
-      margin-bottom: 30px;
-      color: #1a1a3d; /* كحلي */
-    }
-
-    /* قسم التعريف */
-    #about p {
-      text-align: center;
-      font-size: 18px;
-      line-height: 1.8;
-    }
-
-    /* معرض الأعمال */
-    .works {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-
-    .work-item {
-      background: #fff;
-      border-radius: 8px;
-      overflow: hidden;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-      transition: transform 0.3s;
-    }
-
-    .work-item:hover {
-      transform: translateY(-5px);
-    }
-
-    .work-item img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-    }
-
-    .work-item h3 {
-      margin: 10px;
-      font-size: 18px;
-      color: #0d0d29; /* كحلي */
-    }
-
-    /* آراء العملاء */
-    .testimonials {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-
-    .testimonial {
-      background: #fff;
-      padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-    }
-
-    .testimonial p {
-      font-style: italic;
-    }
-
-    .testimonial span {
-      display: block;
-      margin-top: 10px;
-      font-weight: bold;
-      color: #555;
-    }
-
-    /* تواصل */
-    #contact {
-      background: #13133a; /* كحلي */
-      color: #ff6600; /* برتقالي */
-      text-align: center;
-      padding: 50px 20px;
-    }
-
-    #contact a {
-      color: #ff6600; /* برتقالي */
-      text-decoration: none;
-      margin: 0 10px;
-    }
-
-    #contact a:hover {
-      text-decoration: underline;
-    }
-
-    /* الفوتر */
-    footer {
-      text-align: center;
-      padding: 15px;
-      font-size: 14px;
-      background: #16163b; /* كحلي */
-      color: #ff6600; /* برتقالي */
-    }
-  </style>
-</head>
-
-<body>
-
-  <!-- رأس الموقع مع الشعار -->
-  <header>
-    <img src="logo.png" alt="شعار مصممة الجرافيك">
-    <p>مصممة جرافيك - إبداعي بصري يروي قصتك</p>
-  </header>
-
-  <!-- قائمة التنقل -->
-  <nav>
-    <a href="#about">من أنا</a>
-    <a href="#works">أعمالي</a>
-    <a href="#clients">آراء العملاء</a>
-    <a href="#contact">تواصل معي</a>
-  </nav>
-
-  <!-- قسم التعريف -->
-  <section id="about">
-    <h2>من أنا</h2>
-    <p>
-      أنا <strong>[ ميلاد]</strong>، مصممة جرافيك متخصصة في بناء الهويات البصرية والتصاميم الدعائية.
-      أحب التفاصيل والألوان التي تحكي قصة كل علامة تجارية 🌸.
-    </p>
-  </section>
-
-  <!-- معرض الأعمال -->
-  <section id="works">
-    <h2>أعمالي</h2>
-    <div class="works">
-      <div class="work-item">
-        <img src="https://via.placeholder.com/400x250/ff6600/1a1a3d?text=عمل+1" alt="عمل 1">
-        <h3>هوية متجر تغليف</h3>
-      </div>
-      <div class="work-item">
-        <img src="https://via.placeholder.com/400x250/1a1a3d/ff6600?text=عمل+2" alt="عمل 2">
-        <h3>تصميم سوشال ميديا</h3>
-      </div>
-      <div class="work-item">
-        <img src="https://via.placeholder.com/400x250/ff6600/1a1a3d?text=عمل+3" alt="عمل 3">
-        <h3>بطاقات شكر وستيكرات</h3>
-      </div>
-    </div>
-  </section>
-
-  <!-- آراء العملاء -->
-  <section id="clients">
-    <h2>آراء العملاء</h2>
-    <div class="testimonials">
-      <div class="testimonial">
-        <p>"تعامل راقٍ ونتيجة أجمل مما توقعت، شكراً لك!"</p>
-        <span>- نورة .م</span>
-      </div>
-      <div class="testimonial">
-        <p>"تصميم الهوية كان متكامل ومتقن، أنصح الجميع بالتعامل معها."</p>
-        <span>- شركة لمسة</span>
-      </div>
-      <div class="testimonial">
-        <p>"سريعة في الإنجاز وذوقها فخم جداً."</p>
-        <span>- سارة .ع</span>
-      </div>
-    </div>
-  </section>
-
-  <!-- تواصل -->
-  <section id="contact">
-    <h2>تواصل معي</h2>
-    <p>📧 البريد الإلكتروني: <a href="mailto:designer@example.com">designer@example.com</a></p>
-    <p>📱 انستقرام: <a href="https://instagram.com/youraccount" target="_blank">@youraccount</a></p>
-    <p>📞 واتساب: <a href="https://wa.me/9665XXXXXXXX" target="_blank">راسلني على واتساب</a></p>
-  </section>
-
-  <!-- الفوتر -->
-  <footer>
-    <img src="logo.png" alt="شعار مصممة الجرافيك" style="height:40px;">
-    <p>© 2025 جميع الحقوق محفوظة - تصميم <strong>[اسمك]</strong></p>
-  </footer>
-
-</body>
-</html>
-
-</div>
-</body>
