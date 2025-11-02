@@ -158,6 +158,58 @@
       color: #ff6600; /* برتقالي */
     }
   </style>
+    <style>
+/* تنسيق قسم الأعمال */
+#works {
+  text-align: center;
+  margin: 80px 0;
+}
+
+#works h2 {
+  font-size: 2rem;
+  color: #1a1a3d;
+  margin-bottom: 40px;
+}
+
+/* شبكة البطاقات */
+.works {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+}
+
+/* البطاقة */
+.work-item {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* تأثير عند المرور */
+.work-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* صورة الغلاف */
+.work-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* عنوان العمل */
+.work-item h3 {
+  font-size: 1.2rem;
+  color: #1a1a3d;
+  margin: 15px 0 20px;
+}
+</style>
+
 </head>
 
 <body>
